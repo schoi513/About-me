@@ -49,9 +49,10 @@
   <article>
   <h1>About Sam</h1>
   <p>I was born in South Korea and moved to United States when I was little.
-  I moved to Michigan and stayed until 2017. I attended Michigan State University (Go Green!) and moved to Chicago after graduating from the University. I majored in Food Science and I am a foodie. 
+  I moved to Michigan and stayed until 2017. I attended Michigan State University and moved to Chicago after graduating from the University. I majored in Food Science and I am a foodie. 
   <br>I have a cat named Leo and on my free times, I enjoy reading books and watching movies with Leo.</br> </p>
-   <button>Sam's movie of the week</button>
+
+  <p id="MSU" onclick="myFunction()">Click (Go Green!)</p> 
    
   <h2>Contact Information</h2>
   <p>My email is schoi513@gmail.com<br> my number is 248-962-8034.</br></p> 
@@ -59,10 +60,13 @@
   </article>
   
   <script>
-  $("button").on("click", function() {
-    alert("Gladiator");
-    });
+  function myFunction(){
+    document.getElementById("MSU").style.color = "green";
+  }
+  
+
  </script>
+</body>
 </body>
 
 
