@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>Sam Choi</title>
+  <style>
+    body {
+      text-align: center;
+      background: url(https://i.imgur.com/GtLPuPD.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: Tahoma;
+    }
+    p {
+      font-size: 22px;
+    }
+    
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 15px;
+    }
+    input[type="submit"] {
+      background: Indigo;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.imgur.com/vPoBudq.png?1">
+  <p>Hi! I'm Sam, Living in Chicago and currently learning about coding</p>
+  <p>I have a cat named Leo</p>
+  <p>Hit me up below if you want to know more about me!</p>
+  <input type="email" placeholder="Your number ;)">
+  <input type="submit">
+</body>
