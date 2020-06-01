@@ -52,7 +52,7 @@
   I moved to Michigan and stayed until 2017. I attended Michigan State University and moved to Chicago after graduating from the University. I majored in Food Science and I am a foodie. 
   <br>I have a cat named Leo and on my free times, I enjoy reading books and watching movies with Leo.</br> </p>
 
-  <p id="MSU" onclick="myFunction()">Click (Go Green!)</p> 
+  <button id="MSU" onclick="myFunction()">Click (Go Green!)</button> 
    
   <h2>Contact Information</h2>
   <p>My email is schoi513@gmail.com<br> my number is 248-962-8034.</br></p> 
@@ -60,14 +60,14 @@
   </article>
   
   <script>
-  function myFunction(){
-    document.getElementById("MSU").style.color = "green";
+  function myFunction(b){
+    // document.getElementById("MSU").style.color = "green"; 
+    var x = document.getElementsByTagName("P");
+    for (var i = 0; i < x.length; i++) {
+      x[i].style.backgroundColor = "green";
+    }
   }
-  
 
  </script>
 </body>
-</body>
-
-
 
